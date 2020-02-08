@@ -1,157 +1,105 @@
-<div class="page" data-name="percorso">
-    <div class="navbar">
-      <div class="navbar-bg"></div>
-      <div class="navbar-inner sliding">
-        <div class="title">Il percorso</div>
-      </div>
-    </div>
-  
-    <div class="page-content" style="background-color: 739076;">
-        <div class="title">Il Percorso</div>
-        <div class="percorso">
-            <div class="block-title">Side By Side</div>
-<div class="timeline timeline-sides">
-  <div class="timeline-item">
-    <div class="timeline-item-date">Primo <small>Piano</small></div>
-    <div class="timeline-item-divider"> </div>
-    <div class="timeline-item-content">
-      <div class="timeline-item-inner">
-        INGRESSO
-      </div>
-    </div>
-  </div>
-  <!-- </div> -->
+<!DOCTYPE html>
+<html>
+    <head>       
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <title>Casa Romei</title>
 
-  <div data-background="./img/cortile.jpg" class="lazy lazy-fade-in demo-lazy" ></div>
-<div class="timeline-item">
-    <div class="timeline-item-date"><img src="./img/number2.png" style="border-radius: 50px 50px 50px 50px ;"></div>
-    <div class="timeline-item-divider"></div>
-    <div class="timeline-item-content">
-      <div class="timeline-item-inner">Cortile</div>
-    </div>
-  </div>
-
-
-  <div data-background="./img/loggiati.png" class="lazy lazy-fade-in demo-lazy" style=" border-radius: 20px 20px 20px 20px;" ></div>
-  <div class="timeline-item">
-    <div class="timeline-item-date"><img src="./img/number3.png" style="border-radius: 50px 50px 50px 50px ;"></div>
-    <div class="timeline-item-divider"></div>
-    <div class="timeline-item-content">
-      <div class="timeline-item-inner">Loggiati</div>
-    </div>
-  </div>
-  <div class="timeline-item">
-    <div class="timeline-item-date">24 <small>DEC</small></div>
-    <div class="timeline-item-divider"></div>
-    <div class="timeline-item-content">
-      <div class="timeline-item-inner">One more text here</div>
-    </div>
-  </div>
-</div>
-            <!--   
-      <div class="row">
-        <div class="col">  
-              <img src="./img/number1.png" style="border-radius: 50px 50px 50px 50px ; position: relative ; left:45px;"></div>
+    </head>
+    <body>
+     
+    
+        <!------ Include the above in your HEAD tag ---------->
         
-        <div class="col">
         
-            <button class="col button button-fill color-orange" style="width: 100px; text-decoration-color: black;">Ingresso</button>
-        </div>
-        
-        <div class="col" style="font-family: Arial, Helvetica, sans-serif; position:relative; left: 30px;">Piano terrra</div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col"></div>
-        <div class="col">
-            <i class ="f7-icons" style="font-size:50px; position:relative; top: 10px;left:30px;"> arrow_down_right</i>
-        </div>
-        <div class="col"></div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col">
-            <div data-background="./img/cortile.jpg" class="lazy lazy-fade-in demo-lazy" style="  display: block; margin-top: auto;margin-bottom: auto;">
+          <div class="container">
+            <h2 class="pb-3 pt-2 border-bottom mb-5">Vertical Left-Right Timeline</h2>
+            <!--first section-->
+            <div class="row align-items-center how-it-works d-flex">
+              <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center">
+                <div class="square font-weight-bold">1</div>
+              </div>
+              <div class="col-6">
+                <h5>Ingresso</h5>
+              </div>
             </div>
-            <img src="" style="width:100%; border-radius: 40px 40px 40px 40px;">
-      
+            <!--path between 1-2-->
+            <div class="row timeline">
+              <div class="col-2">
+                <div class="corner top-right"></div>
+              </div>
+              <div class="col-8">
+                <hr/>
+              </div>
+              <div class="col-2">
+                <div class="corner left-bottom"></div>
+              </div>
+            </div>
+            <!--second section-->
+            <div class="row align-items-center justify-content-end how-it-works d-flex">
+              <div class="col-6 text-right">
+                <h5>Cortile d'onore</h5>
+               <img src="../img/cortile.jpg" class="img-thumbnail">
+              </div>
+              <div class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center; " >
+                <div class="circle font-weight-bold">2</div>
+              </div>
+            </div>
+            <!--path between 2-3-->
+            <div class="row timeline">
+              <div class="col-2">
+                <div class="corner right-bottom"></div>
+              </div>
+              <div class="col-8">
+                <hr/>
+              </div>
+              <div class="col-2">
+                <div class="corner top-left"></div>
+              </div>
+            </div>
+
+            <!--third section-->
+         
+                <div class="row align-items-center how-it-works d-flex">
+                  <div class="col-2 text-center full-left d-inline-flex justify-content-center align-items-center">
+                    <div class="square font-weight-bold">3</div>
+                  </div>
+                  <div class="col-6">
+                    <h5>Loggiati</h5>
+                    <img src="../img/loggiati.png" class="img-thumbnail">
+                  </div>
+                </div>
+
+
+                   <!--path between 3-4-->
+                   <div class="row timeline">
+                    <div class="col-2">
+                      <div class="corner top-right"></div>
+                    </div>
+                    <div class="col-8">
+                      <hr/>
+                    </div>
+                    <div class="col-2">
+                      <div class="corner left-bottom"></div>
+                    </div>
+                
+          
+    </div>
         
-            <button class="col button button-fill color-orange" style="width:  150px; text-decoration-color: black; position:relative; top: 23px;">Cortile d'onore</button>
-            <img src="./img/number2.png" style="border-radius: 50px 50px 50px 50px ; position: relative; left: 145px; top: 14px; ">
-        </div> 
-    </div>
-
-    <div class="row">
-        <div class="col"></div>
-     
-        <div class="col"></div>
-        <div class="col">
-            <i class ="f7-icons" style="font-size:50px;position:relative; bottom:10px;"> arrow_down</i>
-        </div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col" style="font-family: Arial, Helvetica, sans-serif;"> piano imperiale</div>
        
-        <div class="col"> <img src="./img/loggiati.png" style="width:100%; border-radius: 30px 30px 30px 30px;"></div>
-        <div class="col">
-            <button class="col button button-fill color-orange" style="width: 130px; position:relative; top: 15px;">3. I loggiati</button>
-        </div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col"></div>
-     
-        <div class="col"></div>
-        <div class="col">
-            <i class ="f7-icons" style="font-size:50px;position:relative;top:9px;"> arrow_down</i>
-        </div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col" style="font-family: Arial, Helvetica, sans-serif;"> </div>
-       
-        <div class="col"> <img src="./img/primasala.png" style="width:100%; border-radius: 30px 30px 30px 30px;"></div>
-        <div class="col">
-            <button class="col button button-fill color-orange" style="width: 120px; position:relative; top: 50px;">Prima sala</button>
-            <img src="./img/number4.png" style="border-radius: 50px 50px 50px 50px ; position: relative; left: 145px; top: 14px; ">
-        </div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col"></div>
-     
-        <div class="col"></div>
-        <div class="col">
-            <i class ="f7-icons" style="font-size:50px;position:relative;  right: 15px; top:5px;"> arrow_down_left</i>
-        </div>
-        <div class="col"></div>   
-    </div>
-
-    <div class="row">
-        <div class="col-33">
-            <img src="./img/secondasala.png" style="width:100%; border-radius: 40px 40px 40px 40px;">
-        </div>
-        <div class="col-66"> 
-            <button class="col button button-fill color-orange" style="width:  200px; text-decoration-color: black; position:relative; top: 23px;">5. Seconda sala</button>
-        </div>
-    </div>
-
--->
-
-
-
-
-
-       
-
-     </div>
-    </div>
-  </div>
-  
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../cordova.js"></script>
+        <script type="text/javascript" src="../js/index.js"></script>
+        <script type="text/javascript" src="../js/customIndex.js"></script>
+    </body>
+</html>
