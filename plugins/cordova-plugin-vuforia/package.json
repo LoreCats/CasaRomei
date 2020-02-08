@@ -1,0 +1,82 @@
+{
+  "_from": "cordova-plugin-vuforia@3.2.1",
+  "_id": "cordova-plugin-vuforia@3.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-6oMIpsnq3Fwc7+UHaPhHo1+FwJI=",
+  "_location": "/cordova-plugin-vuforia",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-vuforia@3.2.1",
+    "name": "cordova-plugin-vuforia",
+    "escapedName": "cordova-plugin-vuforia",
+    "rawSpec": "3.2.1",
+    "saveSpec": null,
+    "fetchSpec": "3.2.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-vuforia/-/cordova-plugin-vuforia-3.2.1.tgz",
+  "_shasum": "ea8308a6c9eadc5c1cefe50768f847a35f85c092",
+  "_spec": "cordova-plugin-vuforia@3.2.1",
+  "_where": "C:\\Users\\Hp\\CasaRomei",
+  "author": {
+    "name": "Matthew Rayner"
+  },
+  "bugs": {
+    "url": "https://github.com/mattrayner/cordova-plugin-vuforia/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-vuforia",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-vuforia-sdk": "6.x.x"
+  },
+  "deprecated": false,
+  "description": "Cordova Vuforia Plugin",
+  "engines": {
+    "cordovaDependencies": {
+      "<2.0.0": {
+        "cordova-android": ">=4.0.0 <5.0.0",
+        "cordova-ios": ">=3.0.0 <4.0.0"
+      },
+      ">=0.0.1": {
+        "cordova": ">=5.0.0"
+      },
+      ">=2.0.0": {
+        "cordova": ">=6.0.0",
+        "cordova-android": ">=5.0.0",
+        "cordova-ios": ">=4.0.0"
+      },
+      ">=3.0.0": {
+        "cordova": ">=6.1.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/mattrayner/cordova-plugin-vuforia",
+  "keywords": [
+    "cordova",
+    "vuforia",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "image",
+    "recognition",
+    "mattrayner"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-vuforia",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattrayner/cordova-plugin-vuforia.git"
+  },
+  "version": "3.2.1"
+}

@@ -1,0 +1,42 @@
+/* Custom color theme properties */
+:root {
+  --f7-theme-color: #ec8213;
+  --f7-theme-color-rgb: 236, 130, 19;
+  --f7-theme-color-shade: #c66d10;
+  --f7-theme-color-tint: #ef9639;
+  --f7-touch-ripple-color: black;
+  --f7-button-min-width: 25px;
+  --f7-button-fill-color-orange-text-color:black;
+}
+
+/*Titolo*/
+.title-large{
+  font-family: 'Times New Roman', Times, serif;
+  color: #708773;
+
+
+}
+img.demo-lazy {
+  width: 100%;
+ 
+  display: block;
+
+}
+div.demo-lazy {
+  background: #aaa;
+  background-size: cover;
+  height: 50vw;
+  }
+  .block-strong{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold ;
+    background-image: linear-gradient(white, #708773);
+  }
+.title{
+  font-size: 28px ; 
+}
+.size-24 {font-size :24 px; }
+.percorso{
+background-color: #708773 ;}
+/* Your app custom styles here */
